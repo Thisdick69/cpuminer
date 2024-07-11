@@ -5,7 +5,7 @@
 #
 #
 
-FROM            ubuntu:16.04
+FROM            ubuntu:xenial-20201014
 MAINTAINER      Guillaume J. Charmes <guillaume@charmes.net>
 
 RUN             apt-get update -qq && \
